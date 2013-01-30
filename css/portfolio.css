@@ -1,0 +1,282 @@
+/*
+ * Global stylesheet and bootstrap tweaks for my portfolio page, ngrubb.com
+ *
+ * @author  Noah Grubb
+*/
+
+/* ======BACKGROUND====== */
+body {
+	background: url(../img/subtle-pattern-6.jpg);
+}
+
+/* ======HEADER STYLES====== */
+#header {
+	float: none;
+	margin: 50px auto;
+}
+
+#header h1, #header h2 {
+	margin: 0;
+	text-align: center;
+}
+
+#logo {
+	margin: 10px auto;
+	background-color: #000;
+}
+
+.circle {
+	border-radius: 50%;
+  	width: 150px;
+  	height: 150px; 
+}
+
+.circle img{
+	width: 150px;
+  	height: 150px; 
+}
+
+	/* ======NAVBAR STYLES====== */
+	.navbar {
+		width: 435px;
+		margin: 10px auto;
+	}
+
+	.navbar-inner {
+		border-radius: 20px;
+		text-align: center;
+	}
+
+	.navbar .divider-vertical {
+		margin: 0;
+	}
+
+/* ======**DEFAULT PANEL STYLES**====== */
+.panel {
+	padding-top: 40px;
+}
+
+.panel h2 {
+	margin: 20px 0;
+	font-size: 40px;
+}
+
+
+/* ======ABOUT PANEL STYLES====== */
+#about {
+	background-color:  rgba(6, 46, 54, 0.72);
+	color: #fff;
+	padding-bottom: 30px;
+}
+
+#about .container {
+	position: relative;
+	padding-top: 30px;
+}
+
+#about h2{
+	margin: 10px 0 ;
+}
+
+.bio {
+	margin-top: 40px;
+}
+
+.bio-image {
+	margin-right: 40px;
+}
+
+
+/* ======EXPERIENCES PANEL STYLES====== */
+#experiences {
+	background-color: rgba(45, 57, 65, 0.72);
+}
+
+#experiences h2  { 
+	text-align: right;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+
+#experiences .row {
+	margin: 20px 0 50px;
+}
+
+#experiences .company {
+	color: #FFF;
+	font-size: 20px;
+}
+
+.education {
+	margin-bottom: 80px;
+	border-bottom: 2px white solid;
+}
+
+#experiences p {
+	margin: 0;
+}
+
+#experiences .position {
+	color: #0088cc;
+}
+
+#experiences img {
+	width: 200px;
+	margin: 10px 0;
+}
+
+#experiences .education img {
+	width: 250px;
+}
+
+#experiences .cpaeel-logo {
+	background-color: #fff;
+	vertical-align: middle;
+}
+
+.company-logos .span4 {
+	line-height: 200px;
+	text-align: center;
+}
+
+.company-info .span4 {
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.company-info ul {
+	margin-top: 5px;
+}
+
+
+/* ======PORTFOLIO PANEL STYLES====== */
+#portfolio h2 {
+	color: #000;
+	font-size: 40px;
+}
+
+#portfolio .row {
+	margin-left: 0px;
+}
+
+.thumbnails {
+	margin: 40px 0;
+}
+
+.thumbnail{
+	background-color: white;
+}
+
+.thumbnail img {
+	background-color: white;
+	height: 100px;
+}
+
+.collapsible-content{
+	background-color: white;
+/*	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;*/
+}
+
+.portfolio-image {
+	margin: 50px 10px 30px 30px ;
+	float: left;
+}
+
+.portfolio-content{ 
+	margin: 50px 0 30px;
+	width: 48%;
+	float: right;
+}
+
+.row {
+	margin-left: 0;
+}
+
+.portfolio-content h5{ 
+	font-size: 30px;
+}
+
+.description {
+	font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+	margin-top: 20px;
+	width: 70%;
+}
+
+.portfolio-link .btn, .github-link .btn{
+	margin-top: 25px;
+}
+
+
+/* ======CONTACT PANEL STYLES====== */
+#contact {
+	padding-bottom: 0;
+	background-color: rgba(6, 54, 43, 0.72);
+	color: #fff;
+}
+
+#contact .page-header {
+	border: none;
+	margin-bottom: 0;
+}
+
+#contact .page-header h2 {
+	margin-bottom: 0;
+}
+
+#contact .row {
+	margin: 20px 0px;
+}
+
+.contact-form {
+	padding: 5px;
+}
+
+.contact-form legend{
+	color: white;
+}
+
+.connect h5{
+	font-size: 28px;
+	margin-top: 60px;
+}
+
+.connect {
+	width: 300px;
+}
+
+.social-icons {
+	list-style: none;
+	margin: 20px 0;
+	overflow: auto;
+}
+
+.social-icons a {
+	color: white;
+	opacity: .7;
+}
+
+.social-icons a:hover {
+	text-decoration: none;
+	opacity: 1;
+}
+
+.social-icons li {
+	float: left;
+	margin: 0 3px;
+}
+
+.identifiers {
+	float: left;
+	margin-right: 50px;
+}
+
+.message {
+	float: right;
+}
+
+#copyright p{
+	text-align: center;
+}
