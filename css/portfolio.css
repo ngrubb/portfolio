@@ -7,6 +7,10 @@
 /* ======BACKGROUND====== */
 body {
 	background: url(../img/subtle-pattern-6.jpg);
+
+	padding-right: 0;
+	padding-left: 0;
+
 }
 
 /* ======HEADER STYLES====== */
@@ -53,6 +57,7 @@ body {
 
 /* ======**DEFAULT PANEL STYLES**====== */
 .panel {
+	padding: 0 20px;
 	padding-top: 40px;
 }
 
@@ -135,9 +140,10 @@ body {
 	vertical-align: middle;
 }
 
-.company-logos .span4 {
+.company-logo{
 	line-height: 200px;
 	text-align: center;
+	height: 220px;
 }
 
 .company-info .span4 {
@@ -151,13 +157,14 @@ body {
 
 
 /* ======PORTFOLIO PANEL STYLES====== */
+#portfolio { 
+	padding-left: 0;
+	padding-right: 0;
+}
+
 #portfolio h2 {
 	color: #000;
 	font-size: 40px;
-}
-
-#portfolio .row {
-	margin-left: 0px;
 }
 
 .thumbnails {
@@ -169,15 +176,11 @@ body {
 }
 
 .thumbnail img {
-	background-color: white;
 	height: 100px;
 }
 
 .collapsible-content{
 	background-color: white;
-/*	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;*/
 }
 
 .portfolio-image {
@@ -189,10 +192,6 @@ body {
 	margin: 50px 0 30px;
 	width: 48%;
 	float: right;
-}
-
-.row {
-	margin-left: 0;
 }
 
 .portfolio-content h5{ 
@@ -280,3 +279,8 @@ body {
 #copyright p{
 	text-align: center;
 }
+
+.row {
+	margin-left: 0;
+}
+
