@@ -9,8 +9,9 @@
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/portfolio.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+
 
 </head>
 
@@ -49,7 +50,9 @@
 
             <h2><span class="muted">About</span>Me</h2>
 
-            <p class="lead bio pull-left span8">My name is Noah Grubb and I am a Senior Marketing major with a Computer Science minor at Messiah College. I currently live in the Harrisburg, Pennsylvania area. I have a passion for the web and I dream of becoming a successful web developer! Some of my favorite things are: Radiohead, Chicken Parmesan, and Minecraft.</p>
+            <p class="lead bio pull-left span8">My name is Noah Grubb and I am a Senior Marketing major with a Computer Science minor at Messiah College.
+             I currently live in the Harrisburg, Pennsylvania area. I have a passion for the web and I dream of becoming a successful web developer! 
+             Some of my favorite things are: live music, chicken parmesan, and Minecraft.</p>
 
             <img src="img/steve.png" class="pull-right bio-image" alt="Minecraft Steve"/>
         </div><!--  /container -->
@@ -262,37 +265,6 @@
             </div>
 
             <div class="row">
-                <div class="contact-form pull-left">
-                    <form name="contact" id="contact-form" method="post" action="contact_form_submission.php">
-                        <legend><i class="icon-comments icon-2x"></i> Leave a Message:</legend>
-                        <div class="identifiers">
-                          <div class="control-group">
-                            <label class="control-label" for="inputName">Name:</label>
-                            <div class="controls">
-                              <input type="text" id="inputName" class="input-large required" name="name" placeholder="Name">
-                            </div>
-                          </div>
-                          <div class="control-group">
-                            <label class="control-label" for="inputEmail">Email:</label>
-                            <div class="controls">
-                              <input type="email" id="inputEmail" class="input-large required" name="email" placeholder="Email">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="message">
-                            <div class="control-group">
-                                <label class="control-label" for="subjectArea">Subject:</label>
-                                <div class="controls">
-                                  <textarea rows="6" id="subjectArea" class="span5 required" name="message" placeholder="Leave a message!"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-actions">
-                            <input type="hidden" name="save" value="contact"> 
-                            <button type="submit" class="btn btn-primary">Send</button>
-                        </div>
-                    </form>
-                </div>
 
             <?php  
           
@@ -303,6 +275,41 @@
                 elseif (isset($_GET['e'])) echo "<div class=\"alert alert-error\">".$_GET['e']."</div>";  
               
             ?> 
+
+                <div class="contact-form pull-left">
+                    <form name="contact" id="contact-form" method="post" action="contact_form_submission.php">
+                        <legend><i class="icon-comments icon-2x"></i> Leave a Message:</legend>
+                        <div class="row">
+                            <div class="identifiers">
+                              <div class="control-group">
+                                <label class="control-label" for="inputName">Name:</label>
+                                <div class="controls">
+                                  <input type="text" id="inputName" class="input-large required" name="name" placeholder="Name">
+                                </div>
+                              </div>
+                              <div class="control-group">
+                                <label class="control-label" for="inputEmail">Email:</label>
+                                <div class="controls">
+                                  <input type="email" id="inputEmail" class="input-large required" name="email" placeholder="Email">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="message">
+                                <div class="control-group">
+                                    <label class="control-label" for="subjectArea">Subject:</label>
+                                    <div class="controls">
+                                      <textarea rows="5" id="subjectArea" class="span4 required" name="message" placeholder="Leave a message!"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="buttons">
+                            <input type="hidden" name="save" value="contact"> 
+                            <button type="submit" class="btn pull-right">Send</button>
+                        </div>
+                    </form>
+                </div>
 
                 <div class="connect pull-right">
                     <h5>Connect with me!</h5>

@@ -118,6 +118,11 @@ body {
 	border-bottom: 2px white solid;
 }
 
+.education .span4 {
+	text-align: right;
+	width: 50%;
+}
+
 #experiences p {
 	margin: 0;
 }
@@ -173,6 +178,7 @@ body {
 
 .thumbnail{
 	background-color: white;
+	min-width: 160px;
 }
 
 .thumbnail img {
@@ -184,13 +190,14 @@ body {
 }
 
 .portfolio-image {
-	margin: 50px 10px 30px 30px ;
+	margin: 50px 10px 30px;
 	float: left;
+	max-width: 50%;
 }
 
 .portfolio-content{ 
 	margin: 50px 0 30px;
-	width: 48%;
+	width: 46%;
 	float: right;
 }
 
@@ -243,7 +250,7 @@ body {
 }
 
 .connect {
-	width: 300px;
+	width: 250px;
 }
 
 .social-icons {
@@ -276,11 +283,104 @@ body {
 	float: right;
 }
 
+#buttons {
+	margin-top: 0;
+}
+
+#contact-form .row {
+	margin-bottom: 0;
+}
+
+form {
+	margin-bottom: 0;
+}
+
 #copyright p{
-	text-align: center;
+	text-align: right;
 }
 
 .row {
 	margin-left: 0;
 }
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 979px) {
+
+	.portfolio-content h5{ 
+		line-height: 30px;
+	}
+
+	.connect {
+		float: none;
+		clear: both;
+		margin: 100px auto 30px;
+
+	}
+
+	.contact-form {
+		float: none;
+		margin: 10px auto;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.education .span4 {
+		float: none;
+		margin: 10px auto;
+		text-align: center;
+	}
+
+	.education .span5 {
+		float: none;
+		width: 50%;
+		margin: 20px auto 0;
+	}
+
+	#portfolio h2 {
+		margin-left: 20px;
+	}
+	#portfolioWork {
+		padding: 0 20px;
+	}
+
+	.thumbnails li {
+		text-align: center;
+	}
+
+	#portfolio .thumbnail{
+		max-width: 220px;
+		margin: 0 auto;
+	}
+
+	.portfolio-image {
+		margin: 50px auto 20px;
+		max-width: 100%;
+		float: none;
+	}
+
+	.portfolio-content{ 
+		padding: 20px;
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+
+	.connect {
+		float: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
 
